@@ -1,0 +1,49 @@
+[% INCLUDE header.tt %]
+
+<div id="content">
+  <div class="container">
+    <h2>Who am I?</h2>
+    <img class="u-pull-right portrait" alt="Photo of Matt McLeod" src="/images/matt.jpg"/>
+    <p>I'm Matt McLeod. I'm a web developer with a particular interest in web accessibility,
+    I'm a more-general-stuff developer of many years standing, and I'm a systems administrator.</p>
+
+    <p>At present I am very happily employed, working for <a href="http://www.accessibilityoz.com/">AccessibilityOz</a>.
+    We help our clients make their web sites, web apps, and mobile apps accessible through a combination of
+    testing, consulting, training, and products.</p>
+
+    <p>At a more personal level I'm interested in science, history, gaming, and general nerding-out.</p>
+
+    <h2>What can I do?</h2>
+    <p>On the web development front, I can take a design and implement it as a nice accessible template. Most
+    of my work has been with <a href="http://getbootstrap.com/">Twitter Bootstrap</a>, building templates for 
+    <a href="http://wordpress.org/">WordPress</a> and <a href="http://www.letme.com.au/">LetMe</a>, but there's not
+    much reason I couldn't be building templates for any other CMS or with any other toolkit &mdash; Bootstrap
+    is simply the one I found first and which does a pretty good job with accessibility.</p>
+
+    <p>In terms of more general development, my background is primarily <a href="http://www.perl.org/">Perl</a> and 
+    <a href="http://en.wikipedia.org/wiki/SQL">SQL</a>, though I've worked some
+    with <a href="http://en.wikipedia.org/wiki/JavaScript">JavaScript</a>, <a href="http://www.python.org/">Python</a>, and <a href="https://www.ruby-lang.org/">Ruby</a>. I did once hack <a href="http://en.wikipedia.org/wiki/COBOL">COBOL</a> in the distant past but have no great desire to
+    revisit that.</p>
+
+    <p>As a systems administrator, I've worked mostly with UNIX-like systems. Most recently it's been almost
+    entirely <a href="http://en.wikipedia.org/wiki/Linux">Linux</a> (<a href="http://www.ubuntu.com/">Ubuntu LTS</a>) in various VPS and cloud services like 
+    <a href="http://www.linode.com/">Linode</a>, <a href="http://www.digitalocean.com/">Digital Ocean</a>, 
+    <a href="http://www.rackspace.com/">Rackspace</a>, and
+    <a href="http://ec2.amazon.com/">Amazon EC2</a>, but I spent a very long time managing 
+    <a href="http://en.wikipedia.org/wiki/Solaris_%28operating_system%29">Solaris</a> systems in everything from software development
+    houses to production telecommunications and trading infrastructure, using old-school "special snowflake" and
+    modern devops techniques.</p>
+
+    <h2>Colophon</h2>
+    <p>This very simple site was built to be fast and low-energy. It's served up as static HTML generated
+    from templates made using <a href="http://www.template-toolkit.org/">Template::Toolkit</a>. The CSS was made using the <a href="http://lesscss.org/">LESS pre-processor</a>.</p>
+
+    <p>The framework used here is <a href="http://getskeleton.com/">Skeleton</a>, which provides a very nice
+    basic grid system and not too much more. Fast and light being the order of the day.</p>
+
+    <p>The typefaces are from <a href="http://typekit.com/">Adobe Typekit</a>, <a href="https://typekit.com/fonts/nimbus-sans-condensed">Nimbus Sans Condensed Black</a> for the headings and
+    <a href="https://typekit.com/fonts/fira-sans">Fira Sans</a> for the copy.</p>
+
+    </div>
+</div>
+[% INCLUDE footer.tt %]

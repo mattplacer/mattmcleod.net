@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en_AU">
+<head>
+<script src="//use.typekit.net/lry0nab.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+  <meta charset="utf-8">
+  <title>Matt McLeod</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/mattmcleod.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+[% IF portfolio %]
+  <script src="/js/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+  <script type="text/javascript" src="/butterfly/jquery.resize-events.js"></script>
+  <script type="text/javascript" src="/butterfly/jquery.history.js"></script>
+  <script type="text/javascript" src="/butterfly/jquery.pxToEm.js"></script><!-- optional script if you wish to specify dimensions in em units -->
+  <script type="text/javascript" src="/butterfly/jquery.butterfly.js"></script>
+  <link rel="stylesheet" type="text/css" href="/butterfly/butterfly.css" />
+[% END %]
+</head>
+<body>
+  <header>
+    <div id="skip">
+      <a href="#content">Skip to main content</a>
+    </div>
+    <div class="container">
+      <div class="row">
+	<div class="six columns">
+          <h1>Matt McLeod</h1>
+	  <p id="tagline">Developer, sysadmin, generalist.</p>
+	</div>
+	<div id="links" class="six columns">
+    <p class="u-pull-right">
+	    <a href="/">About</a>
+	    <a href="portfolio.html">Portfolio</a>
+	  </p>
+	</div>
+      </div>
+    </div>
+  </header>

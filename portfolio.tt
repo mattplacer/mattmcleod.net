@@ -1,0 +1,135 @@
+[% SET portfolio = 1 %]
+[% INCLUDE header.tt %]
+
+<div tabindex="-1" id="content">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <p>All of these sites were built as part of my work with <a href="http://www.accessibilityoz.com/">AccessibilityOz</a>, either directly or under contract to <a href="http://www.informationaccessgroup.com/">The Information Access Group</a>.</p>
+
+  <h3>AccessibilityOz</h3>
+    <div class="row">
+      <div class="one-third column">
+        <a href="/images/accessibilityoz.jpg" class="lightbox">
+          <img class="u-max-full-width" src="/images/accessibilityoz-thumb.jpg" alt="Screenshot of AccessibilityOz website"/>
+        </a>
+      </div>
+      <div class="two-thirds column">
+      <p>This is the redeveloped <a href="http://www.accessibilityoz.com/">AccessibilityOz</a> site. The design was
+      produced by <a href="http://www.tomasstudios.com.au/">Tomas Studios</a>, and then implemented as a set
+      of <a href="http://www.wordpress.org/">WordPress</a> templates using <a href="http://www.getbootstrap.com">Twitter Bootstrap</a> and the <a href="https://paypal.github.io/bootstrap-accessibility-plugin/">PayPal Bootstrap Accessibility Plugin</a>.</p>
+      <p>It also uses a fair bit of additional custom PHP code to integrate with the AccessibilityOz Error Database
+      to provide subscription-based access to that content and uses the <a href="https://ithemes.com/exchange/">iThemes Exchange</a> set of plugins for sale of both subscription and one-off products and services.</p>
+       </div>
+    </div>
+  <h3>Energy Rating</h3>
+    <div class="row">
+      <div class="one-third column">
+        <a href="/images/energy-rating.jpg" class="lightbox">
+          <img class="u-max-full-width" src="/images/energy-rating-thumb.jpg" alt="Screenshot of Energy Rating website"/>
+        </a>
+      </div>
+      <div class="two-thirds column move">
+      <p>Built by <a href="http://www.accessibilityoz.com/">AccessibilityOz</a> for the Australian Federal <a href="http://www.industry.gov.au/Pages/default.aspx">Department of Industry and Science</a> and designed by <a href="http://www.tomasstudios.com.au/">Tomas Studios</a>, the <a href="http://www.energyrating.gov.au">Energy Rating</a> redevelopment was built on <a href="http://www.wordpress.org/">WordPress</a> with <a href="http://www.getbootstrap.com">Twitter Bootstrap</a> as a base.
+      <p>This build was done in record time while remaining functional, accessible, and quite good-looking. It has
+      quite a few fiddly bits and content-author-modifiable areas on the various landing pages.</p>
+      </div>
+    </div>
+  <h3>The Bridge</h3>
+    <div class="row">
+      <div class="one-third column">
+        <a href="/images/thebridge.jpg" class="lightbox">
+          <img class="u-max-full-width" src="/images/thebridge-thumb.jpg" alt="Screenshot of The Bridge website"/>
+        </a>
+      </div>
+      <div class="two-thirds column">
+      <p>Produced under contract to <a href="http://www.informationaccessgroup.com/">The Information Access Group</a>.
+      The design was provided by <abbr title="The Information Access Group">IAG</abbr> and then implemented as
+      static HTML5 and CSS3 using <a href="http://www.getbootstrap.com">Twitter Bootstrap</a>.</p>
+      <p><abbr title="The Information Access Group">IAG</abbr> then converted these into templates for <a href="http://www.letme.com.au">LetMe</a>, 
+      <abbr title="The Information Access Group">IAG</abbr>'s in-house <abbr title="Content Management System">CMS</abbr>.</p>
+      <p>There are four sites in all, each with variations on the same base theme. They originally also had reskinned
+      Google Maps as part of the home page design, but that has since been moved to the main <a href="http://www.thebridgeinc.org.au/contact_us.html">contact page</a>.
+      </div>
+    </div>
+
+    <h3>Applications, plugins and other bits of code</h3>
+    <div class="text">
+    <p>It's not all just websites. Here are some other things I've written over the past few years:</p>
+    <ul>
+    <li><a href="http://www.accessibilityoz.com/ozart/">OzART</a>. This is a web accessibility reporting
+    and workflow tool. It's a big pile of <a href="http://www.perl.org/">Perl</a>, with parallelised batch processing on the back end and
+    a fairly nice and accessible web front end built using the <a href="http://www.perldancer.org/">Dancer</a> toolkit.</li>
+    <li>The <a href="https://github.com/mattmcleod/ozplayer-wordpress">OzPlayer WordPress plugin</a>.
+    This is open-source software. It's largely based on the stock video player support that ships with
+    <a href="http://wordpress.org/">WordPress</a>, but uses the free (as in beer) version of <a href="http://www.accessibilityoz.com/ozplayer/">OzPlayer</a></li>
+    <li>A variety of in-house tools for <a href="http://www.accessibilityoz.com/">AccessibilityOz</a>,
+    including integrations with <a href="http://basecamp.com">Basecamp</a> and a web interface to their Master Error Database. These have all been written in Perl</li>
+    <li>Several plugins and small modifications for <a href="http://www.letme.com.au/">LetMe</a>, written in
+    <a href="http://www.python.org/">Python</a> and <a href="https://www.djangoproject.com/">Django</a></li>
+    </ul>
+    </div>
+
+
+  <h3>LetMe</h3>
+    <div class="row">
+      <div class="one-third column">
+        <a href="/images/letme.jpg" class="lightbox">
+          <img class="u-max-full-width" src="/images/letme-thumb.jpg" alt="Screenshot of LetMe website"/>
+        </a>
+      </div>
+      <div class="two-thirds column move">
+      <p><a href="http://www.letme.com.au">LetMe</a> is
+      <abbr title="The Information Access Group">IAG</abbr>'s in-house <abbr title="Content Management System">CMS</abbr>. This one-pager was designed by <abbr title="The Information Access Group">IAG</abbr>, implemented as
+      HTML5 and CSS3 using <a href="http://www.getbootstrap.com">Twitter Bootstrap</a> by me, and then
+      converted to a <a href="http://www.letme.com.au">LetMe</a> template by <abbr title="The Information Access Group">IAG</abbr>.
+      </div>
+    </div>
+  <h3>Information Access Group</h3>
+    <div class="row">
+      <div class="one-third column">
+        <a href="/images/iag.jpg" class="lightbox">
+          <img class="u-max-full-width" src="/images/iag-thumb.jpg" alt="Screenshot of IAG website"/>
+        </a>
+      </div>
+      <div class="two-thirds column">
+      <p>This is the redesigned corporate site for <a href="http://www.informationaccessgroup.com/">The Information Access Group</a>. The design was produced by <abbr title="The Information Access Group">IAG</abbr>'s
+      in-house design team and then implemented in HTML5 and CSS3 by me using <a href="http://www.getbootstrap.com">Twitter Bootstrap</a> as the framework.</p>
+      <p><abbr title="The Information Access Group">IAG</abbr> then converted this to a set of <a href="http://www.letme.com.au">LetMe</a> templates.</p>
+      <p>If you look at the live site you'll notice the spinny bits in the header area of the home page. This
+      is intended to provide a bit of movement to catch the eye.</p>
+      </div>
+    </div>
+  <h3>Pictures of You</h3>
+    <div class="row">
+      <div class="one-third column">
+        <a href="/images/poy.jpg" class="lightbox">
+          <img class="u-max-full-width" src="/images/poy-thumb.jpg" alt="Screenshot of Pictures of You website"/>
+        </a>
+      </div>
+      <div class="two-thirds column move">
+      <p>The brief here was deceptively straightforward: the Victorian <a href="http://www.tac.vic.gov.au/">Transport Accident Commission</a> had a long-running <a href="http://www.picturesofyou.com.au/">Pictures of You</a> campaign. However, the website had been implemented as a Flash object long before accessibility requirements had been considered.</p>
+      <p>So the job was to recreate the original Flash application as closely as possible, but using HTML5 and CSS3,
+      producing an accessible site. The result is pretty reasonable given the constraints, and uses the
+      <a href="http://www.accessibilityoz.com/ozplayer/">OzPlayer</a> accessible video player to provide access
+      to the YouTube videos that make up the campaign.</p>
+      <p>The pages are basically just static HTML. There's a tiny little bit of PHP to simplify providing
+      audio-described versions of the videos.</p>
+      <p>This was my first website built for a client.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script>
+  if (window.matchMedia('only screen and (min-width:550px)').matches) {
+    console.log("Not a mobile!");
+    $(".move").each(function() {
+      var parent = $(this).parent();
+      var content = $(this).detach();
+      content.prependTo(parent);
+    });
+    $("a.lightbox").butterfly({'captionMode': 'text'});
+  }
+</script>
+
+[% INCLUDE footer.tt %]
