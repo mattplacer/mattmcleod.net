@@ -1,6 +1,10 @@
 <footer>
 <div class="container">
-	<span class="u-pull-right">
+     <span class="u-pull-right">
+     	   Contact: 
+	  </span>
+	<span class="u-cf u-pull-right">
+
 		<a href="mailto:matt@boggle.org"><i class="fa fa-2x fa-envelope-square"></i><span class="sr-only">Email</span></a>
 		<a href="https://github.com/mattmcleod"><i class="fa fa-2x fa-github-square"></i><span class="sr-only">Github</span></a>
 		<a href="http://au.linkedin.com/in/mjmcleod"><i class="fa fa-2x fa-linkedin-square"></i><span class="sr-only">LinkedIn</span></a>
