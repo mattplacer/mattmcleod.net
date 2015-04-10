@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/mattmcleod.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 [% IF portfolio %]
   <script src="/js/jquery-1.11.2.min.js"></script>
-  <script src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+  <script src="/js/jquery-migrate-1.0.0.js"></script>
   <script type="text/javascript" src="/butterfly/jquery.resize-events.js"></script>
   <script type="text/javascript" src="/butterfly/jquery.history.js"></script>
   <script type="text/javascript" src="/butterfly/jquery.pxToEm.js"></script><!-- optional script if you wish to specify dimensions in em units -->
